@@ -10,4 +10,3 @@
 - Size of data types in bytes
 - Arthemetic operators
 - Scan file for user input   
-- And more...
