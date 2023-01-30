@@ -29,6 +29,5 @@ void main()
     }   else
     {
         printf("You are Dead");
-    }
-        
+    }      
 }
