@@ -5,9 +5,9 @@ void main()
 {
     int a[5]={5,16,7,3,9};
 
-    for (int i = 0; i < 5; i++)
+    for (int i=0; i<5; i++)
     {
-        for (int k = 1; k < 11; k++)
+        for (int k=1; k<11; k++)
         {
             if (k<10)
             {
