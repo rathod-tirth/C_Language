@@ -5,7 +5,7 @@ void main()
 {
     for (int i = 1; i < 11; i++)
     {
-        if (i==8)   // loop goes first at if statement every time
+        if (i==8)   // flow of loop goes first at whatever is in front
         { 
             break;
         }
@@ -20,7 +20,7 @@ void main()
         {
             continue;
 
-            printf("skipped");  // adding anything after the control statement does not gets executed
+            printf("skipped");  // adding anything after the control(break,continue) statement does not gets executed
         }   
         printf("%d ", i);
     } 

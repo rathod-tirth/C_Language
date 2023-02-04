@@ -20,11 +20,12 @@ void main()
 
             break;
         }
-        if (code[4]==input[4])
+        if (code[t]==input[t])
         {
-            printf("\n ACCESS GRANTED\n");
-
-            break;
-        }
+            if (t==4)
+            {
+                printf("\nACCESS GRANTED\n");
+            } 
+        }   
     }  
 }   

@@ -3,21 +3,26 @@
 void main()
 
 {
-    char password[]="tirth";
-    char input[100];
+    char password[6]="tirth";
+    char input[6];
 
     printf("Enter the Password : ");
     scanf("%s", &input);
 
-    if (password[0]==input[0] && password[1]==input[1] && 
-        password[2]==input[2] && password[3]==input[3] && 
-        password[4]==input[4])
+    for (int i = 0; i <= 4; i++)
     {
-        printf("\nACCESS GRANTED\n");
+        if (password[i]!=input[i])
+        {
+            printf("\nACCESS DENIED\n");
+
+            break;
+        }
+        if (password[i]==input[i])
+        {     
+            if (i==4)
+            {
+                printf("\nACCESS GRANTED\n");
+            }
+        }
     }
-    else
-    {
-        printf("\nACCESS DENIED\n");
-    }
-    
 }
