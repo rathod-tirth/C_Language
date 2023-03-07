@@ -40,7 +40,7 @@ int main()
 	return 0;	
 }
 
-
+//	For logic and explanation of this program refer to loops_rev2.c file
 
 
 

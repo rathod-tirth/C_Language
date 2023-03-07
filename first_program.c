@@ -16,4 +16,6 @@ main ()                                             //main()
 
 }
 
-                                                     //User defined functions
+void func()											//User defined functions
+{
+}                                                     

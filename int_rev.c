@@ -5,10 +5,10 @@
 int main()
 
 {
-	int a, b=0, c=0;
+	long long a, b=0, c=0;
 	
 	printf("Enter any number : ");
-	scanf("%d",&a);
+	scanf("%lld",&a);
 	
 	while(a>0)
 	{
@@ -17,7 +17,7 @@ int main()
 		a = a / 10;
 	}
 	
-	printf("Reverse : %d",b);
+	printf("Reverse : %lld",b);
 	
 	return 0;
 }
@@ -27,7 +27,9 @@ int main()
 	b=0
 	c=0
 										   
->>	a % 10 = c			
+>>	Divinding any number by 10 gives last digit as Remainder and rest as Quotient
+
+>>	a % 10 = c
 	
 	123 % 10 = 3		
  	12  % 10 = 2 		
