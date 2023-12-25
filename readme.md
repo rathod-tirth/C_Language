@@ -1,12 +1,12 @@
-##### Hello There,   
-# I contain **C Language** Programming Files
-![C](https://www.britefish.net/wp-content/uploads/2019/07/logo-c-1.png)
+# C Language
 
-## Content
+- It was developed in 1972 by Dennis Ritchie at Bell Laboratories
 
-- Basic syntax for beginner
-- Demo file for test purpose
-- Different data types for various requirement
-- Size of data types in bytes
-- Arthemetic operators
-- Scan file for user input   
+- C is the succesor of language B, C89 and C99 were previous version of C
+
+- C is a mid-level language since it doesn't provide all the functionality found in high level languages but it provides you with all the building blocks that you will need to produce the results you want.
+
+- `stdio.h`: Standard Input and Output
+
+## Data Types:
+
