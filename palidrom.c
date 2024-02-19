@@ -7,44 +7,38 @@ int main()
 
 {
 	char str[10], temp[10], str1[10];
-	int k, i=0, z;
-	
+	int k, i = 0, z;
+
 	printf("Write a string : ");
 	gets(str);
-	
-	strcpy(str1,str);
-	
-	k=strlen(str);
-	
-	z=k-1;
-	
-	while(i<k/2)
+
+	strcpy(str1, str);
+
+	k = strlen(str);
+
+	z = k - 1;
+
+	while (i < k / 2)
 	{
-		temp[i]=str[i];
-		
-		str[i]=str[z-i];
-	
-		str[z-i]=temp[i];
-		
-		i++;	
+		temp[i] = str[i];
+
+		str[i] = str[z - i];
+
+		str[z - i] = temp[i];
+
+		i++;
 	}
-	
-	if(strcmp(str,str1)==0)
+
+	if (strcmp(str, str1) == 0)
 	{
 		printf("String is Palidrom");
-	}	else
+	}
+	else
 	{
 		printf("String is not Palidrom");
 	}
-	
-	return 0;	
+
+	return 0;
 }
 
-//	For logic and explanation of this program refer to loops_rev2.c file
-
-
-
-
-
-
-
+//	For logic and explanation of this program refer to char_rev.c file
